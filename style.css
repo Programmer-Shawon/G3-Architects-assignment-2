@@ -270,7 +270,7 @@ color: #424242;
         flex-direction: column;
         justify-content: start;
         align-items: flex-start;
-        gap: 10px;
+        gap: 30px;
      }
      #navbar .nav-left h2 {
         font-size: 25px;
