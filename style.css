@@ -242,6 +242,8 @@ header section end
 }
 /* our sponsor end */
 
+/*  get in touch section start */
+
 #get-in-touch {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -293,6 +295,7 @@ header section end
 #get-in-touch button {
   width: fit-content;
 }
+/*  get in touch section end */
 /* footer section start */
 footer {
   padding: 40px 50px 40px 50px;
