@@ -186,8 +186,9 @@ header section end
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
+  text-align: left !important;
   color: #727272;
-  max-width: 543px;
+  /* max-width: 543px; */
   margin-top: 10px;
 }
 #facts .facts-list {
@@ -256,9 +257,13 @@ header section end
   font-size: 45px;
 }
 #get-in-touch p {
-  font-size: 25px;
   margin-top: 10px;
   margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #727272;
 }
 #get-in-touch form {
   width: 80%;
@@ -332,12 +337,15 @@ footer h4 {
   #header-content h2 {
     font-size: 25px;
   }
+
   #our-features {
     grid-template-columns: 1fr;
     justify-content: center;
     margin-left: 50px;
   }
-
+  #our-features #features-content p {
+    text-align: left;
+  }
   .features-img {
     grid-template-columns: 1fr;
     justify-content: center;
@@ -351,6 +359,9 @@ footer h4 {
   #feature-details {
     grid-template-columns: 1fr;
   }
+  .feature-details-paragraph {
+    text-align: left;
+  }
   #feature-details button {
     display: block;
     margin: 40px auto auto auto;
@@ -358,6 +369,18 @@ footer h4 {
   #feature-details button span {
     font-size: 20px;
     line-height: 40px;
+  }
+  .feature-list div p {
+    text-align: left;
+  }
+  #facts .heading,
+  #sponsor h2,
+  #get-in-touch h2 {
+    font-size: 38px;
+    text-align: center;
+  }
+  #facts .info {
+    text-align: center !important;
   }
   #facts .facts-list {
     grid-template-columns: 1fr;
