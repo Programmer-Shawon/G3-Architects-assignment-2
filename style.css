@@ -262,7 +262,7 @@ header section end
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  text-align: center;
+  text-align: start;
   color: #727272;
 }
 #get-in-touch form {
@@ -402,7 +402,7 @@ footer h4 {
     grid-template-columns: 1fr;
   }
   #get-in-touch h2,
-  p {
+  #get-in-touch p {
     text-align: center;
   }
   #get-in-touch form {
